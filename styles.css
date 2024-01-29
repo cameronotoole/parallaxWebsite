@@ -1,0 +1,75 @@
+ body {
+    background-color: #808080;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+   /* section {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: right;
+    } */
+
+    p {
+        display: inline-block;
+        color: #008000;
+        background-color: #f2f3f4;
+    }
+
+
+    #section1 {
+        font-weight: bold;
+        font-size: 20px;
+        background: url('http://tinyurl.com/2ppkxuf5') center/cover no-repeat fixed;
+    }
+
+    #section2 {
+        font-weight: bold;
+        font-size: 20px;
+        background: url('http://tinyurl.com/3fczd2au') center/cover no-repeat fixed;
+    }
+
+    #section3 {
+        font-weight: bold;
+        font-size: 20px;
+        background: url('http://tinyurl.com/2rha2dbp') center/cover no-repeat fixed;
+    }
+
+    #section4 {
+        font-weight: bold;
+        font-size: 20px;
+        background: url('http://tinyurl.com/yc83dnp6') center/cover no-repeat fixed;
+    }
+
+    #belfast {
+        height: 400px;
+        width: 600px;
+        border-left: solid 4px #008d00;
+        border-right: solid 4px #008d00;
+    }
+
+    #countyCork {
+        height: 400px;
+        width: 600px;
+        border-left: solid 4px #008d00;
+        border-right: solid 4px #008d00;
+    }
+
+    #countyKildare {
+        height: 400px;
+        width: 600px;
+        border-left: solid 4px #008d00;
+        border-right: solid 4px #008d00;
+    }
+
+    #countyDonegal {
+        height: 400px;
+        width: 600px;
+        border-left: solid 4px #008d00;
+        border-right: solid 4px #008d00;
+    }
+
