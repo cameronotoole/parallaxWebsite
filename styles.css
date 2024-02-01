@@ -16,29 +16,28 @@ p {
   color: #008000;
   background-color: #f2f3f4;
 }
+section {
+  background: url("./250px-Flag_of_Ireland.png") center/cover no-repeat fixed;
+  background-size: contain;
+}
 
 #section1 {
   font-weight: bold;
   font-size: 20px;
-  background: url("http://tinyurl.com/2ppkxuf5") center/cover no-repeat fixed;
 }
 
 #section2 {
   font-weight: bold;
-  font-size: 20px;
-  background: url("http://tinyurl.com/3fczd2au") center/cover no-repeat fixed;
 }
 
 #section3 {
   font-weight: bold;
   font-size: 20px;
-  background: url("http://tinyurl.com/2rha2dbp") center/cover no-repeat fixed;
 }
 
 #section4 {
   font-weight: bold;
   font-size: 20px;
-  background: url("http://tinyurl.com/yc83dnp6") center/cover no-repeat fixed;
 }
 
 #belfast {
