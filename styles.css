@@ -18,7 +18,6 @@ p {
 }
 section {
   background: url("./250px-Flag_of_Ireland.png") center/cover no-repeat fixed;
-  background-size: contain;
 }
 
 #section1 {
