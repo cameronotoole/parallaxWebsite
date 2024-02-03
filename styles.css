@@ -20,6 +20,24 @@ section {
   background: url("./250px-Flag_of_Ireland.png") center/cover no-repeat fixed;
 }
 
+#irishTranslation {
+  display: flex;
+  justify-content: center;
+  background-color: #ffa500;
+  color: #008000;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#englishTranslation {
+  display: flex;
+  justify-content: center;
+  background-color: #ffa500;
+  color: #008000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 #section1 {
   font-weight: bold;
   font-size: 20px;
@@ -45,6 +63,8 @@ section {
   width: 600px;
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
+  border-radius: 20%;
+  animation: 3s linear 1s infinite alternate slidein;
 }
 
 #countyCork {
@@ -52,6 +72,7 @@ section {
   width: 600px;
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
+  animation: 3s ease-in 1s infinite reverse running slidein;
 }
 
 #countyKildare {
@@ -66,4 +87,13 @@ section {
   width: 600px;
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
