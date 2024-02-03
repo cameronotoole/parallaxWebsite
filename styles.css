@@ -26,6 +26,7 @@ section {
   background-color: #ffa500;
   color: #008000;
   font-size: 40px;
+  font-family: 'Tahoma', serif;
   text-decoration: none;
 }
 
@@ -35,6 +36,7 @@ section {
   background-color: #ffa500;
   color: #008000;
   font-size: 20px;
+  font-family: 'Tahoma' , serif;
   text-decoration: none;
 }
 
@@ -64,7 +66,7 @@ section {
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
   border-radius: 20%;
-  animation: 3s linear 1s infinite alternate slidein;
+
 }
 
 #countyCork {
@@ -72,7 +74,8 @@ section {
   width: 600px;
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
-  animation: 3s ease-in 1s infinite reverse running slidein;
+  border-radius: 20%;
+
 }
 
 #countyKildare {
@@ -80,6 +83,7 @@ section {
   width: 600px;
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
+  border-radius: 20%;
 }
 
 #countyDonegal {
@@ -87,7 +91,11 @@ section {
   width: 600px;
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
+  border-radius: 20%;
 }
+
+/*
+animation styling eh...
 
 @keyframes slidein {
   from {
@@ -96,4 +104,12 @@ section {
   to {
     transform: translateX(100%);
   }
-}
+}   
+
+animation: 3s linear 1s infinite alternate slidein;
+
+  animation: 3s ease-in 1s infinite reverse running slidein;
+
+
+
+*/
