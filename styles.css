@@ -26,7 +26,7 @@ section {
   background-color: #ffa500;
   color: #008000;
   font-size: 40px;
-  font-family: 'Tahoma', serif;
+  font-family: "Tahoma", serif;
   text-decoration: none;
 }
 
@@ -36,8 +36,17 @@ section {
   background-color: #ffa500;
   color: #008000;
   font-size: 20px;
-  font-family: 'Tahoma' , serif;
+  font-family: "Tahoma", serif;
   text-decoration: none;
+}
+
+#irishTranslation:hover {
+  background-color: #008000;
+  color: #ffa500;
+}
+#englishTranslation:hover {
+  background-color: #008000;
+  color: #ffa500;
 }
 
 #section1 {
@@ -66,7 +75,6 @@ section {
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
   border-radius: 20%;
-
 }
 
 #countyCork {
@@ -75,7 +83,6 @@ section {
   border-left: solid 4px #008d00;
   border-right: solid 4px #008d00;
   border-radius: 20%;
-
 }
 
 #countyKildare {
