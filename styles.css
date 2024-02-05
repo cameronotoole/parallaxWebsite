@@ -17,7 +17,13 @@ p {
   background-color: #f2f3f4;
 }
 section {
-  background: url("./250px-Flag_of_Ireland.png") center/cover no-repeat fixed;
+  background: url("http://tinyurl.com/2ppkxuf5") center/cover no-repeat fixed;
+
+  background: url("http://tinyurl.com/3fczd2au") center/cover no-repeat fixed;
+
+  background: url("http://tinyurl.com/2rha2dbp") center/cover no-repeat fixed;
+
+  background: url("http://tinyurl.com/yc83dnp6") center/cover no-repeat fixed;
 }
 
 #irishTranslation {
@@ -102,7 +108,7 @@ section {
 }
 
 /*
-animation styling eh...
+animation styling
 
 @keyframes slidein {
   from {
