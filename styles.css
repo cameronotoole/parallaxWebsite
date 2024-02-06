@@ -9,21 +9,13 @@ h1 {
   display: inline-block;
   color: #008000;
   background-color: #f2f3f4;
+  opacity: 90%;
 }
 
 p {
   display: inline-block;
   color: #008000;
   background-color: #f2f3f4;
-}
-section {
-  background: url("http://tinyurl.com/2ppkxuf5") center/cover no-repeat fixed;
-
-  background: url("http://tinyurl.com/3fczd2au") center/cover no-repeat fixed;
-
-  background: url("http://tinyurl.com/2rha2dbp") center/cover no-repeat fixed;
-
-  background: url("http://tinyurl.com/yc83dnp6") center/cover no-repeat fixed;
 }
 
 #irishTranslation {
@@ -58,21 +50,25 @@ section {
 #section1 {
   font-weight: bold;
   font-size: 20px;
+  background: url("http://tinyurl.com/2ppkxuf5") center/cover no-repeat fixed;
 }
 
 #section2 {
   font-weight: bold;
   font-size: 20px;
+  background: url("http://tinyurl.com/3fczd2au") center/cover no-repeat fixed;
 }
 
 #section3 {
   font-weight: bold;
   font-size: 20px;
+  background: url("http://tinyurl.com/2rha2dbp") center/cover no-repeat fixed;
 }
 
 #section4 {
   font-weight: bold;
   font-size: 20px;
+  background: url("http://tinyurl.com/yc83dnp6") center/cover no-repeat fixed;
 }
 
 #belfast {
@@ -106,23 +102,3 @@ section {
   border-right: solid 4px #008d00;
   border-radius: 20%;
 }
-
-/*
-animation styling
-
-@keyframes slidein {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100%);
-  }
-}   
-
-animation: 3s linear 1s infinite alternate slidein;
-
-  animation: 3s ease-in 1s infinite reverse running slidein;
-
-
-
-*/
